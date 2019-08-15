@@ -5,13 +5,17 @@
    <version_ids>
       <version_ids>2</version_ids>
    </version_ids>
-   <summary>German Community Modules - Deutsch (Benutzerdefiniert) Language Pack</summary>
-   <description>German language pack for Magento Commerce - Custom Version</description>
+   <summary>German Community Modules - German (Custom) Language Pack</summary>
+   <description>Deutsches Sprachpaket für Magento Commerce - Benutzerdefinierte Sprachversion
+
+German language pack for Magento Commerce - Custom version
+
+Paquete de idioma alemana para Magento Commerce - Versión personalizada</description>
    <license>OSL</license>
    <license_uri>http://opensource.org/licenses/osl-3.0.php</license_uri>
    <version>0.1.0</version>
    <stability>stable</stability>
-   <notes>Compatible with Magento 1.6.x-1.9.3.x</notes>
+   <notes>none</notes>
    <authors>
       <name>
          <name>Manfred Worm Schäfer</name>
@@ -24,7 +28,7 @@
       </email>
    </authors>
    <depends_php_min>5.2.0</depends_php_min>
-   <depends_php_max>6.0.0</depends_php_max>
+   <depends_php_max>7.1.0</depends_php_max>
    <depends>
       <package>
          <name>
@@ -58,6 +62,9 @@
    <contents>
       <target>
          <target>magelocal</target>
+         <target>magedesign</target>
+         <target>magedesign</target>
+         <target>magedesign</target>
          <target>magecommunity</target>
          <target>mageetc</target>
          <target>magelocale</target>
@@ -129,6 +136,9 @@
       </target>
       <path>
          <path/>
+         <path>adminhtml/default/default/locale/de_ZZ/translate.csv</path>
+         <path>frontend/default/default/locale/de_ZZ/translate.csv</path>
+         <path>frontend/rwd/default/locale/de_ZZ/translate.csv</path>
          <path>German/LocalePackDeZz</path>
          <path>modules/German_LocalePackDeZz.xml</path>
          <path>de_ZZ/Mage_Adminhtml.csv</path>
@@ -199,6 +209,9 @@
          <path>de_ZZ/Mage_XmlConnect.csv</path>
       </path>
       <type>
+         <type>file</type>
+         <type>file</type>
+         <type>file</type>
          <type>file</type>
          <type>dir</type>
          <type>file</type>
@@ -339,9 +352,15 @@
          <include/>
          <include/>
          <include/>
+         <include/>
+         <include/>
+         <include/>
       </include>
       <ignore>
          <ignore/>
+         <ignore>#^.DS_Store#</ignore>
+         <ignore>#^.DS_Store#</ignore>
+         <ignore>#^.DS_Store#</ignore>
          <ignore>#^.DS_Store#</ignore>
          <ignore>#^.DS_Store#</ignore>
          <ignore>#^.DS_Store#</ignore>

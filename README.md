@@ -32,12 +32,26 @@ MaWoScha
 # Hinweise / Hints / Avisos
 
 Diese Erweiterung ist mit Magento 1.6.2, 1.7.0, 1.8.1, 1.9.0 und 1.9.1 getestet. <br />
-Das Sprachpaket ist für Magento 1.6.x bis 1.9.3.x
-
+Das Sprachpaket ist für Magento 1.6.x bis 1.9.4.x
 
 This extension is tested with Magento 1.6.2, 1.7.0, 1.8.1, 1.9.0 and 1.9.1. <br />
-The language pack is suitable for Magento 1.6.x until 1.9.3.x
-
+The language pack is suitable for Magento 1.6.x until 1.9.4.x
 
 Esta extensión se prueba con Magento 1.6.2, 1.7.0, 1.8.1, 1.9.0 y 1.9.1. <br />
-El paquete de idioma es adecuado para Magento 1.6.x hasta 1.9.3.x
+El paquete de idioma es adecuado para Magento 1.6.x hasta 1.9.4.x
+
+
+You should use
+* [German LocaleFallback](https://github.com/MaWoScha/German_LocaleFallback)
+* [German LocalePack de_DE](https://github.com/MaWoScha/German_LocalePack_de_DE)
+for using standard german as a fallback language.
+
+Sie sollten
+* [German LocaleFallback](https://github.com/MaWoScha/German_LocaleFallback)
+* [German LocalePack de_DE](https://github.com/MaWoScha/German_LocalePack_de_DE)
+für die Verwendung von Standard-Deutsch als Ausweichsprache zu verwenden.
+
+Usted debe usar
+* [German LocaleFallback](https://github.com/MaWoScha/German_LocaleFallback)
+* [German LocalePack de_DE](https://github.com/MaWoScha/German_LocalePack_de_DE)
+parap poder utilizar el Alemán Standard como idioma de reserva.
